@@ -26,8 +26,9 @@ As seguintes ferramentas foram usadas na construção do projeto:
     Executar testes no modo interface do cypress com o comando: yarn cypress open
 
 ### 🤝 Para executar testes com Allure:
+    Apagar os testes que já foram executados com o comando: 
+        yarn run allure:clear   
     Executar teste por linha de comando gerando allure results
         yarn cypress run --env allure=true
-
     Depois de gerar allure results, apresentar o servidor de testes
         yarn allure serve

@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "Projeto de teste no BugBank",
   "main": "index.js",
+  "scripts": {
+    "allure:clear": "rm -r allure-results/ allure-report || true"
+
+  },
   "repository": "git@github.com:acalmeidarm/bugbank-bootcampcypress.git",
   "author": "Ana Carolina Ribeiro",
   "license": "MIT",
